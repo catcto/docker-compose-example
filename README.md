@@ -1,5 +1,5 @@
 # Docker Compose Example
-Docker Compose Example And Template
+Docker Compose Example And Template YAML files.
 
 ## Install Docker CE for CentOS
 

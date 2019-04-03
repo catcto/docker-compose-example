@@ -1,0 +1,10 @@
+version: '3.1'
+
+services:
+  gost:
+    image: ginuerzh/gost
+    container_name: gost
+    ports:
+      - 18888:8080
+    restart: always
+    command: ["-L", "${LOCAL}", "-F" ,"${FORWARD}"]

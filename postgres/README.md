@@ -1,4 +1,4 @@
-# Example gogs
+# Example postgres
 
 ```shell
 docker-compose up -d

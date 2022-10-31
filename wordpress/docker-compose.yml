@@ -35,7 +35,8 @@ services:
       - 443:443
     volumes:
       - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
-      - ./nginx/certs:/etc/nginx/certs
+      - ./nginx/certs/cert.pem:/etc/nginx/certs/cert.pem
+      - ./nginx/certs/cert.key:/etc/nginx/certs/cert.key
     depends_on:
       - wordpress
     restart: always

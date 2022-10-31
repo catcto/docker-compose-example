@@ -8,3 +8,13 @@ services:
     ports:
       - 8080:8080
     command: [ "-L", ":8080", "-F" ,"http://admin:123456@192.168.1.1:8081" ]
+
+  gost-https:
+    image: ginuerzh/gost
+    container_name: gost-https
+    network_mode: "host"
+    restart: always
+    volumes:
+      - ./cert.pem:/bin/cert.pem
+      - ./cert.key:/bin/key.pem
+    command: [ "-L", "http2://:443", "-F", "127.0.0.1:40000" ]

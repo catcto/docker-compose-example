@@ -3,11 +3,11 @@ version: '3.1'
 services:
   frpc:
     image: cloverzrg/frpc-docker
-    container_name: frps
+    container_name: frpc
     restart: always
     network_mode: "host"
     volumes:
-      - ./frps.ini:/conf/frpc.ini
+      - ./frpc.ini:/conf/frpc.ini
 
   frps:
     image: cloverzrg/frps-docker

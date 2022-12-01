@@ -1,0 +1,16 @@
+version: '3.1'
+
+services:
+  ss-server:
+    image: shadowsocks/shadowsocks-libev
+    container_name: ss-server
+    restart: always
+    network_mode: "host"
+    command: ss-server -s 0.0.0.0 -p 6443 -m chacha20-ietf-poly1305 -k 123456
+
+  ss-client:
+    image: shadowsocks/shadowsocks-libev
+    container_name: ss-client
+    restart: always
+    network_mode: "host"
+    command: ss-local -s 127.0.0.1 -p 6443 -m chacha20-ietf-poly1305 -k 123456 -l 1080 -b 0.0.0.0

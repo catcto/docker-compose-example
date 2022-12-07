@@ -7,6 +7,9 @@ Docker Compose Example And Template YAML files.
 - [postgres](./postgres/README.md)
 - [redis](./redis/README.md)
 - [wordpress](./wordpress/README.md)
+- [shadowsocks](./shadowsocks/README.md)
+- [v2ray](./v2ray/README.md)
+
 
 ## Install Docker CE for CentOS
 

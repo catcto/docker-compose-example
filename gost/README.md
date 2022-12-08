@@ -3,11 +3,11 @@
 ## http
 
 ```shell
-docker-compose up gost -d
+$ docker compose up gost -d
 ```
 
 ## https
 
 ```shell
-docker-compose up gost-https -d
+$ docker compose up gost-https -d
 ```

@@ -3,11 +3,11 @@
 ## Server
 
 ```shell
-docker-compose up ss-server -d
+$ docker compose up ss-server -d
 ```
 
 ## Client
 
 ```shell
-docker-compose up ss-client -d
+$ docker compose up ss-client -d
 ```

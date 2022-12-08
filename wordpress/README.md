@@ -2,5 +2,5 @@
 WordPress with Nginx on Docker Compose
 
 ```shell
-docker-compose up -d
+$ docker compose up -d
 ```

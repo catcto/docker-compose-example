@@ -11,5 +11,5 @@ A full-fledged example of an NGINX configuration.
 
 ## Usage
 ```shell
-docker-compose up -d
+$ docker compose up -d
 ```

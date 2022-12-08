@@ -5,10 +5,10 @@ A full-fledged example of an frp configuration.
 
 Start frps on server A:
 ```shell
-docker-compose up -d frps
+$ docker compose up -d frps
 ```
 
 Start frpc on server B:
 ```shell
-docker-compose up -d frpc
+$ docker compose up -d frpc
 ```

@@ -24,9 +24,9 @@ $ sudo yum install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 ## Docker Run hello-world
 
 ```shell
-sudo systemctl start docker
-sudo systemctl enable docker
-sudo docker run hello-world
+$ sudo systemctl start docker
+$ sudo systemctl enable docker
+$ sudo docker run hello-world
 ```
 
 ## Reference
